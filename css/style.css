@@ -1,6 +1,8 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
     word-spacing: 3px;
+    margin: 0px;
+    padding: 0px;
 }
 #primeiradiv{
     
@@ -79,13 +81,11 @@ footer{
 }
 #terceiradiv{
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 #quartadiv{
-    font-family: 'Source Sans Pro', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    flex-direction: column;
+    width: 800px;
 
 }
 p{
@@ -99,3 +99,6 @@ img:hover{
     opacity: 80%;
 }
 
+.sections{
+    width: 100%;
+}
